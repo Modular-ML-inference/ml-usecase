@@ -15,12 +15,12 @@ This repository contains ML models, test data, and model support files from the 
 Each row in the test data represents one second of observations. Due to the 2Hz frequency, each second has two sets of acceleration values reported by the sensor. 
 Therefore, columns have the naming format of `t{obs_number}_{axis}`
 
-t1_x - axis X, 1st observation in the second
-t1_y - axis Y, 1st observation in the second
-t1_z - axis Z, 1st observation in the second
-t2_x - axis X, 2nd observation in the second
-t2_y - axis Y, 2nd observation in the second
-t2_z - axis Z, 2nd observation in the second
+- t1_x - axis X, 1st observation in the second
+- t1_y - axis Y, 1st observation in the second
+- t1_z - axis Z, 1st observation in the second
+- t2_x - axis X, 2nd observation in the second
+- t2_y - axis Y, 2nd observation in the second
+- t2_z - axis Z, 2nd observation in the second
 
 Test data does not include the vector length, it is computed additionally during pre-processing. 
 
