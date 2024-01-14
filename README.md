@@ -33,5 +33,10 @@ Test data does not include the vector length, it is computed additionally during
 - create_dataset.ipynb - jupyter notebook that allows for creating an image dataset with the same probability distribution of the number of detected scratches as the original evaluation dataset from the use case. Requires the damage detection dataset and trained Mask R-CNN model for better reproducibility. Returns the list of image names for inference purposes. Note: contains the confidence threshold and image size parameters. To achieve full reproducibility both parameters should be equal to those used in the inference pipeline
 - processing_inference.py - a class devoted to pre-/post-processing activities such as image resizing, confidence filtering, and output formatting
 
+## Authors
+
+- [Karolina Bogacka](https://orcid.org/0000-0002-7109-891X) ([GitHub](https://github.com/Karolina-Bogacka))
+- [Anastasiya Danilenka](https://orcid.org/0000-0002-3080-0303) ([GitHub](https://github.com/adanilenka))
+
 ## Licensing
 The repository is released under the Apache 2.0 license. See [LICENSE](LICENSE) for more information.
