@@ -1,6 +1,6 @@
 # ML use case
 
-This repository contains ML models, test data, and model support files from the fall detection and scratch detection use cases.
+This repository contains ML models, test data, and model support files from the fall detection and scratch detection use cases described in the paper ["Flexible Deployment of Machine Learning Inference Pipelines in the Cloud–Edge–IoT Continuum"](https://www.mdpi.com/2079-9292/13/10/1888).
 
 ## Fall detection
 
@@ -36,6 +36,12 @@ Test data does not include the vector length, it is computed additionally during
 ## Citation
 
 If you found the ml-usecase code useful, please consider starring ⭐ us on GitHub and citing 📚 us in your research!
+
+```
+Bogacka, K.; Sowiński, P.; Danilenka, A.; Biot, F.M.; Wasielewska-Michniewska, K.; Ganzha, M.; Paprzycki, M.; Palau, C.E.
+Flexible Deployment of Machine Learning Inference Pipelines in the Cloud–Edge–IoT Continuum.
+Electronics 2024, 13, 1888. https://doi.org/10.3390/electronics13101888 
+```
 
 ```bibtex
 @Article{electronics13101888,
